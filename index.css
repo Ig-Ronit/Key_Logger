@@ -1,0 +1,38 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+#log , #state{
+  width: 500px;
+  height: 50px;
+  border: 2px solid black;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+.button-container{
+  display: flex;
+  flex-direction: row;
+}
+
+#log{
+  background-color: #ffa500;
+}
+#state{background-color:grey; 
+}
+
+button{
+  font-size: 20px;
+  padding: 10px 20px ;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+#msg-box{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
